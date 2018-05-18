@@ -3,9 +3,5 @@ title: 小鱼仔
 SEOTitle: 小鱼仔
 email: 1286630069@qq.com
 url: https://adongs.github.io
-baseurl: /_posts
 markdown: redcarpet
-safe: false
-pygments: true
-excerpt_separator: "\n\n\n"
 paginate: 5
