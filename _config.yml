@@ -7,7 +7,7 @@ url: "https://adongs.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: adongs
+username: adongs | 博客
 user_description: Some text about you.
 disqus_username: disqus_username
 
