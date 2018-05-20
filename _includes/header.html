@@ -1,15 +1,18 @@
-{%- comment -%}
-  Include vars:
-  scrolly_nav
-{%- endcomment -%}
+<header class="bar-header">
+    <a id="menu">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <a id="search" class="dosearch">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    <h1 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {{ site.username }}
+        </a>
+    </h1>
+</header>
 
-<!-- Header -->
-<div id="header">
-  <div class="top">
-    {%- include logo.html -%}
-    {%- include nav.html section_items=include.scrolly_nav -%}
-  </div>
-  <div class="bottom">
-    {%- include social_icons.html -%}
-  </div>
-</div>
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}
