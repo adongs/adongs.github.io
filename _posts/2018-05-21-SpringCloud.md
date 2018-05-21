@@ -2,7 +2,7 @@
 layout: post
 title: "spring cloud"
 date: 2018-05-21 14:33:00
-image: 'https://adongs.github.io/assets/img/resources/springcloud.jpeg'
+image: 'https://adongs.github.io/assets/img/resources/springcloud.svg'
 description: 学习spring cloud全家桶
 category: 'Spring Cloud'
 tags:
