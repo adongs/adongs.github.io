@@ -34,6 +34,8 @@ gems:
 links:
   - title: 主页
     url: /
+  - title: 标签
+    url: /tags/  
   - title: 关于我
     url: /about/
   - title: 联系
