@@ -148,7 +148,7 @@ introduction: Netflix eureka(注册中心)搭建和理解
     </dependencyManagement>
 ```
 
-- config项目默认的配置文件是.properties格式的,为方便好的阅读修改为.yml格式
+- eureka项目默认的配置文件是.properties格式的,为方便好的阅读修改为.yml格式
 
 
 - 在application.yml 文件中添加如下配置文件
@@ -166,13 +166,13 @@ eureka:
         fetchRegistry: false      #为true时，可以启动，但报异常：Cannot execute request on any known server
 ```
 
-- 启动成功如下(打开http://localhost:8761/,即可看到注册中心)
+- 启动成功如下
 
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/eureka/8.jpg "idea创建项目")
 
 
-
-
+- 打开http://localhost:8761/,即可看到注册中心
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/eureka/9.jpg "idea创建项目")
 
 
 
