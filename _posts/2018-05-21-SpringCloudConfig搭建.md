@@ -75,6 +75,7 @@ introduction: Spring Cloud Config 搭建和理解
 
 
 - 在application.yml 文件中添加如下配置文件(config 总的有三种读取方式git,svn,本地文件),这里配置本地读取模式
+
 ```yml
 server:
   port: 8888  //设置tomcat端口
