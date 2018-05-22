@@ -92,3 +92,5 @@ spring:
             search-locations: //你放配置文件的目录
 ```
 
+- 启动项目如下图,到此config服务创建完成
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/13.jpg "idea创建项目")
