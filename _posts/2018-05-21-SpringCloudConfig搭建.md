@@ -2,7 +2,7 @@
 layout: post
 title: "Spring Cloud Config"
 date: 2018-05-21 18:43:58
-image: 'https://adongs.github.io/assets/img/resources/springcloud.svg'
+image: 'https://adongs.github.io/assets/img/resources/spring-cloud-config.png'
 description: 学习Spring Cloud Config
 category: 'Spring Cloud Config'
 tags:
