@@ -9,7 +9,6 @@ tags:
 - Spring boot
 - Spring
 - Spring Cloud
-- Spring Cloud Config
 - Spring Security oauth2
 - Spring Security
 introduction: Spring Security oauth2 搭建和理解
