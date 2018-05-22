@@ -49,8 +49,45 @@ introduction: Spring Cloud Config 搭建和理解
 - 创建好后结构如下图
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/11.jpg "idea创建项目")
 
+- 打开config中的pom.xml文件,修改parent标签如下groupId和artifactId,version都需要指向父项目groupId和artifactId,version
+
+```xml
+    <parent>
+        <groupId>com.springcloud</groupId>
+        <artifactId>cloud</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+```
+
+- 打开父项目的pom.xml文件,在dependencies标签上面添加如下
+
+```xml
+    <modules>
+        <module>config</module>
+    </modules>
+```
+
+- 在config项目ConfigApplication启动类中添加一个注解@EnableConfigServer
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/12.jpg "idea创建项目")
+
+- config项目默认的配置文件是.properties格式的,为方便好的阅读修改为.yml格式
 
 
+- 在application.yml 文件中添加如下配置文件(config 总的有三种读取方式git,svn,本地文件),这里配置本地读取模式
+```yml
+server:
+  port: 8888  //设置tomcat端口
 
-
+spring:
+    application:
+        name: config  //配置应用名称
+    profiles:
+      active: native  //本地文件读取模式
+    cloud:
+      config:
+        server:
+          native:
+            search-locations: //你放配置文件的目录
+```
 
