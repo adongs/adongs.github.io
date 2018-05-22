@@ -114,3 +114,57 @@ spring:
 
 - 启动项目如下图,到此config服务创建完成
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/13.jpg "idea创建项目")
+
+
+### config服务注册到注册中心(eureka)
+
+- 注册前提是<a href="https://adongs.github.io/NetflixEureka/">搭建注册中心</a>
+
+- 在config 服务 pom.xml 加入如下包
+```xml
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+```
+
+- 配置文件修改如下
+```xml
+server:
+  port: 8888  //设置tomcat端口
+
+spring:
+    application:
+        name: config  //配置应用名称
+    profiles:
+      active: native  //本地文件读取模式
+    cloud:
+      config:
+        server:
+          native:
+            search-locations: //你放配置文件的目录
+
+eureka:           
+    instance:
+        statusPageUrlPath: /info  //状态页面
+        healthCheckUrlPath: /health //健康验证页面
+        prefer-ip-address: true
+        ip-address: 127.0.0.1  //连接地址,由于注册中心端口默认配置的8761,所以不需要写端口
+```
+
+- 在config服务的启动类添加注解@EnableEurekaClient,如下图
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/15.jpg "idea创建项目")
+
+
+- 先启动注册中心,如下
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/16.jpg "idea创建项目")
+
+-再启动config服务
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/17.jpg "idea创建项目")
+
+-打开http://localhost:8761/,即可看到config在注册中心里
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/18.jpg "idea创建项目")
+
+
+
