@@ -18,14 +18,14 @@ introduction: Netflix eureka(注册中心)搭建和理解
 
 ### 疑问
 
-> 启动时候如果遇到如下错误(依赖包版本冲突)
+> 启动时候如果遇到如下错误(依赖包版本冲突)?
 
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/eureka/7.jpg "idea创建项目")
 
 - 修改父项目的pom.xml的配置如下(原来的2.0.2.RELEASE修改为1.5.4.RELEASE)
 
 ```xml
-<parent>
+    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.4.RELEASE</version>
