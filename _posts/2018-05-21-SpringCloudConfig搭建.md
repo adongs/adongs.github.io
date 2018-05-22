@@ -40,7 +40,7 @@ introduction: Spring Cloud Config 搭建和理解
 - 设置好group和artifact名称,点击Next(创建config项目),点击Next
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/8.jpg "idea创建项目")
 
-- 选择 Core->Lombok   Cloud Config -> Config Server ,点击Next
+- 选择 Core-><a href="https://www.zhihu.com/question/42348457">Lombok</a>,Cloud Config -> Config Server ,点击Next
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/9.jpg "idea创建项目")
 
 - 设置项目名称,点击Finish (项目名为config,你也可以自定义)
