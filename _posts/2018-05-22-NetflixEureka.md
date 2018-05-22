@@ -128,10 +128,12 @@ introduction: Netflix eureka(注册中心)搭建和理解
 ```
 
 - 在eureka项目EurekaApplication启动类中添加一个注解@EnableEurekaServer
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/eureka/6.jpg "idea创建项目")
 
 - 你会发现无法导入那个注解,没有指定的包,你需要打开父项目的pom.xml文件,
 在标签dependencies标签下面加入如下标签
+
 ```xml
  <dependencyManagement>
         <dependencies>
@@ -150,6 +152,7 @@ introduction: Netflix eureka(注册中心)搭建和理解
 
 
 - 在application.yml 文件中添加如下配置文件
+
 ```yml
 spring:
     application:
@@ -164,6 +167,7 @@ eureka:
 ```
 
 - 启动成功如下(打开http://localhost:8761/,即可看到注册中心)
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/eureka/8.jpg "idea创建项目")
 
 
