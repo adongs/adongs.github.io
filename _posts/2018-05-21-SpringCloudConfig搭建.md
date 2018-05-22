@@ -46,7 +46,8 @@ introduction: Spring Cloud Config 搭建和理解
 - 设置项目名称,点击Finish (项目名为config,你也可以自定义)
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/10.jpg "idea创建项目")
 
-
+- 创建好后结构如下图
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/11.jpg "idea创建项目")
 
 
 

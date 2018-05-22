@@ -32,7 +32,7 @@ gems:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: 主页
+  - title: 博客
     url: /
   - title: 标签
     url: /tags/  
