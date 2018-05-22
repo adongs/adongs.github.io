@@ -121,6 +121,7 @@ spring:
 - 注册前提是<a href="https://adongs.github.io/NetflixEureka/">搭建注册中心</a>
 
 - 在config 服务 pom.xml 加入如下包
+
 ```xml
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -130,6 +131,7 @@ spring:
 ```
 
 - 配置文件修改如下
+
 ```xml
 server:
   port: 8888  //设置tomcat端口
@@ -154,16 +156,20 @@ eureka:
 ```
 
 - 在config服务的启动类添加注解@EnableEurekaClient,如下图
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/15.jpg "idea创建项目")
 
 
 - 先启动注册中心,如下
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/16.jpg "idea创建项目")
 
 -再启动config服务
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/17.jpg "idea创建项目")
 
 -打开http://localhost:8761/,即可看到config在注册中心里
+
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/18.jpg "idea创建项目")
 
 
