@@ -23,4 +23,34 @@ introduction: Netflix Feign(模板化客户端)搭建和理解
 - 将在 <a href="https://adongs.github.io/NetflixHystrix/">Netflix Hystrix </a> 博客中讲述
 
 > 怎么结合Ribbon(负载均衡)?
-- 将在 <a href="">Netflix Ribbon</a>博客中讲述
+- 将在 <a href="https://adongs.github.io/NetflixRibbon/">Netflix Ribbon</a>博客中讲述
+
+### 架构图
+
+- 架构图
+
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/config/14.jpg "idea创建项目")
+
+
+### 创建项目
+
+>前提环境 IDEA,JDK1.8
+
+
+- 为了测试Feign,我们需要创建两个自定义Web模块,也就是我们自己的业务模块,这里使用用户模块(user)和管理模块来举例子(manage),让用户模块调用管理模块
+
+
+- 创建用户模块
+
+
+
+
+
+
+
+
+
+
+
+
+
