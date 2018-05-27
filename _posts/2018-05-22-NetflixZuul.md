@@ -18,6 +18,8 @@ introduction: Netflix Zuul(动态路由)搭建和理解
 
 
 ### 疑问
+> 怎么判断访问通过zuul(网关)服务?
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/zuul/10.png "idea创建项目")
 
 ### 架构图
 
