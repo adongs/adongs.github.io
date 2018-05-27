@@ -1,7 +1,7 @@
 layout: post
 title: "Netflix-feign"
 date: 2018-05-27 21:07:56
-image: 'https://adongs.github.io/assets/img/resources/netflix-feign.jpg'
+image: 'https://adongs.github.io/assets/img/resources/netflix-feign.png'
 description: 学习Netflix-feign
 category: 'Netflix-feign'
 tags:
