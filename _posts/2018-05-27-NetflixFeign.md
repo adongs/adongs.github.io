@@ -1,9 +1,9 @@
 layout: post
-title: "Netflix-feign"
+title: "Netflix Feign"
 date: 2018-05-27 21:07:56
 image: 'https://adongs.github.io/assets/img/resources/netflix-feign.png'
-description: 学习Netflix-feign
-category: 'Netflix-feign'
+description: 学习Netflix Feign
+category: 'Netflix Feign'
 tags:
 - Spring boot
 - Spring
