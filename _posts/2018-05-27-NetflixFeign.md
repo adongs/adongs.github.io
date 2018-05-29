@@ -40,7 +40,28 @@ introduction: Netflix Feign(模板化客户端)搭建和理解
 - 为了测试Feign,我们需要创建两个自定义Web模块,也就是我们自己的业务模块,这里使用用户模块(user)和管理模块来举例子(manage),让用户模块调用管理模块
 
 
-- 创建用户模块
+- 创建用户模块,选择中父项目右键选中new->Module
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/1.png "idea创建项目")
+
+- 点击next
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/2.png "idea创建项目")
+
+- 设置好group和artifact名称,点击Next
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/3.png "idea创建项目")
+
+- 选择Core>>Lombok
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/4.png "idea创建项目")
+
+- 设置项目名称,点击Finish
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/5.png "idea创建项目")
+
+- 项目结构如下
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/6.png "idea创建项目")
+
+- 按照上面的步骤再创建一个manage项目
+
+
+
 
 
 

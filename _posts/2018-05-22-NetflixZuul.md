@@ -43,7 +43,7 @@ introduction: Netflix Zuul(动态路由)搭建和理解
 - 选择Core>>Lombok,Cloud Routing>> Zuul
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/zuul/4.png "idea创建项目")
 
-- - 设置项目名称,点击Finish
+- 设置项目名称,点击Finish
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/zuul/5.png "idea创建项目")
 
 - 创建完成后结构如下图(如果看不懂,请转<a href="https://adongs.github.io/SpringCloudConfig">Spring Cloud Config</a>>)
