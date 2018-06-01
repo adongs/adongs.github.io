@@ -25,6 +25,11 @@ introduction: Netflix Feign(模板化客户端)搭建和理解
 > 怎么结合Ribbon(负载均衡)?
 - 将在 <a href="https://adongs.github.io/NetflixRibbon/">Netflix Ribbon</a>博客中讲述
 
+> 如果在启动时遇到如下错误?
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/13.png "idea创建项目")
+
+- 由于请求超时造成的,我们需要配置上熔断和负载均衡即可
+
 ### 架构图
 
 - 架构图
