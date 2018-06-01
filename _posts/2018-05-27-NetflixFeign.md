@@ -91,6 +91,7 @@ eureka:
         <module>user</module>
 ```
 - 打开user中的pom.xml文件,修改parent标签如下groupId和artifactId,version都需要指向父项目groupId和artifactId,version,其他修改如下
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -164,6 +165,7 @@ eureka:
 - 按照上面的步骤再创建一个manage项目,除了application.yml其余都和user一样
 
 - 修改application.yml 文件如下
+
 ```yml
 server:
   port: 8081
@@ -180,6 +182,7 @@ eureka:
         ip-address: 127.0.0.1
 ```
 - 在user项目中添加一个接口
+
 ```java
 package com.springcloud.user.rest;
 
@@ -202,6 +205,7 @@ public interface FeignTest {
 ```
 
 - 在user项目添加一个controller
+
 ```java
 package com.springcloud.user.rest;
 
@@ -232,6 +236,7 @@ public class TestController {
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/10.png "idea创建项目")
 
 - 在manage项目中定义一个controller
+
 ```java
 package com.springcloud.manage.rest;
 
