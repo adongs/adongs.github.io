@@ -30,7 +30,7 @@ introduction: Netflix Ribbon(负债均衡)搭建和理解
 
 >前提环境 IDEA,JDK1.8
 
-- 阅读这一章需要阅读<a href="">Feign</a>
+- 阅读这一章需要阅读<a href="https://adongs.github.io/NetflixFeign/">Feign</a>
 
 - 创建用户模块,选择中父项目右键选中new->Module
 ![placeholder](https://adongs.github.io/assets/img/blog/springcloud/ribbon/1.png "idea创建项目")
