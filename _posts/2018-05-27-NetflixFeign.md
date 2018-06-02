@@ -30,6 +30,35 @@ introduction: Netflix Feign(模板化客户端)搭建和理解
 
 - 由于请求超时造成的,我们需要配置上熔断和负载均衡即可
 
+```yml
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 120000
+  ConnectTimeout: 120000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+          strategy: SEMAPHORE
+
+```
+
+![placeholder](https://adongs.github.io/assets/img/blog/springcloud/feign/14.png "idea创建项目")
+
 ### 架构图
 
 - 架构图
