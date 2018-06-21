@@ -10,7 +10,7 @@ tags:
 - Spring
 - Spring Cloud
 - Netflix Ribbon
-introduction: Netflix Ribbon(负债均衡)搭建和理解
+introduction: Netflix Ribbon(负载均衡)搭建和理解
 ---
 
 ### 理解
