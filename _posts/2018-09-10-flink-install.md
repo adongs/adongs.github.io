@@ -6,6 +6,6 @@ image: 'https://adongs.github.io/assets/img/resources/flink.png'
 description: 学习flink安装
 category: 'flink'
 tags:
-- kafka
+- flink
 introduction: flink在mac上安装
 ---
