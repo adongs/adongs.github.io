@@ -214,7 +214,11 @@ public class SocketWindowWordCount {
 
 ![placeholder](https://adongs.github.io/assets/img/blog/flink/7.png "flink")
 
+![placeholder](https://adongs.github.io/assets/img/blog/flink/8.png "flink")
 
+![placeholder](https://adongs.github.io/assets/img/blog/flink/9.png "flink")
+
+![placeholder](https://adongs.github.io/assets/img/blog/flink/10.png "flink")
 
 
 
