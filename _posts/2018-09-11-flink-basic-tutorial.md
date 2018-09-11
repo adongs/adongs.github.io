@@ -12,13 +12,13 @@ introduction: flink基础教程
 
 ### 安装flink
 
-```
+```shell
 https://adongs.github.io/flink-install/
 ```
 
 ### 启动flink
 
-```
+```shell
 #在安装目录中执行如下
 ./bin/start-cluster.sh
 ```
