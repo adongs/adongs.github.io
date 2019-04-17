@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "vscode配置java开发环境和golang环境"
-date: 2019-04-17 13:36:57
-image: 'https://adongs.github.io/assets/img/resources/vscode.jpeg'
-description: mac安装vscode并且配置java和golang环境
-category: 'vscode'
+title: "jira安装"
+date: 2019-02-21 14:21:39
+image: 'https://adongs.github.io/assets/img/resources/jira.png'
+description: jira安装
+category: 'jira'
 tags:
-- vscode
-- idea
-- java
-- golang
-introduction: 在mac电脑上安装vscode,配置vscode的java环境和golang环境
+- jira
+introduction: jira 安装及使用说明
 ---
 
 ## 安装vscode
