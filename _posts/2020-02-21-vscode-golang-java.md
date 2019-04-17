@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "jira安装"
-date: 2019-02-21 14:21:39
-image: 'https://adongs.github.io/assets/img/resources/jira.png'
-description: jira安装
-category: 'jira'
+title: "vsocde配置java和golang"
+date: 2019-04-17 14:58:15
+image: 'https://adongs.github.io/assets/img/resources/vscode.jpeg'
+description: vsocde配置java和golang
+category: 'vscode'
 tags:
-- jira
-introduction: jira 安装及使用说明
+- vscode
+- vscode java
+- vscode golang
+introduction: vsocde配置java和golang
 ---
 
 ## 安装vscode
