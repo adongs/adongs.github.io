@@ -14,7 +14,6 @@ introduction: vsocde配置java和golang
 
 ## 安装vscode
 
-
 #### 1.下载vscode
 
 [vscode下载地址](https://code.visualstudio.com/)
