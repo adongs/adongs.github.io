@@ -16,7 +16,6 @@ introduction: vsocde配置java和golang
 
 #### 1.下载vscode
 
-
 [vscode下载地址](https://code.visualstudio.com/)
 
 #### 2.修改vscode为中文
