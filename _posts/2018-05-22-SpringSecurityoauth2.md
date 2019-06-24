@@ -58,6 +58,7 @@ introduction: Spring Security oauth2 搭建和理解
 ####  授权码模式（authorization code）最复杂
 
 > 1.用户访问客户端，后者将前者导向认证服务器。
+
 ```
 response_type：表示授权类型，必选项，此处的值固定为"code"
 client_id：表示客户端的ID，必选项
@@ -70,12 +71,15 @@ GET /authorize?response_type=code&client_id=s6BhdRkqt3&state=xyzredirect_uri=htt
 Host: server.example.com
 
 ```
+
 > 2.用户选择是否给予客户端授权。
+
 ```
 显示界面,用户点击授权按钮
 ```
 
 > 3.假设用户给予授权，认证服务器将用户导向客户端事先指定的"重定向URI"（redirection URI），同时附上一个授权码。
+
 ```
 code：表示授权码，必选项。该码的有效期应该很短，通常设为10分钟，客户端只能使用该码一次，否则会被授权服务器拒绝。该码与客户端ID和重定向URI，是一一对应关系
 state：如果客户端的请求中包含这个参数，认证服务器的回应也必须一模一样包含这个参数
@@ -151,11 +155,14 @@ Host: server.example.com
 ```
 
 > 2.用户决定是否给于客户端授权。
+
 ```
 显示界面,用户点击授权按钮
 ```
 
 > 3.假设用户给予授权，认证服务器将用户导向客户端指定的"重定向URI"，并在URI的Hash部分包含了访问令牌。
+
+
 ```
 access_token：表示访问令牌，必选项。
 token_type：表示令牌类型，该值大小写不敏感，必选项。
@@ -168,6 +175,7 @@ HTTP/1.1 302 Found
 Location: http://example.com/cb#access_token=2YotnFZFEjr1zCsicMWpAA&state=xyz&token_type=example&expires_in=3600
 
 ```
+
 > 4.浏览器向资源服务器发出请求，其中不包括上一步收到的Hash值。
 
 ```
@@ -183,11 +191,13 @@ http://example.com/cb#state=xyz&token_type=example&expires_in=3600
 ```
 
 > 6.浏览器执行上一步获得的脚本，提取出令牌。
+
 ```
 执行脚本,获取令牌
 ```
 
 > 7.浏览器将令牌发给客户端。
+
 ```
 浏览器将获取到的令牌上传给客户端
 ```
